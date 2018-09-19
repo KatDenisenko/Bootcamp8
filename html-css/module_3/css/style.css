@@ -8,6 +8,7 @@ img, a {
 }
 a{
     text-decoration: none;
+    color: #191919;
 }
 ul {
     list-style: none;
@@ -44,7 +45,7 @@ ul {
     color: black;
 }
 .menu-item:hover>a {
-    color: red;
+    color: violet;
 }
 .header-menu {
     
@@ -52,9 +53,6 @@ ul {
     margin-right: 10px;
     float: right;
 }
-
-
-
 
 /*MAIN*/
 
@@ -115,6 +113,7 @@ ul {
 
 .blog_nav { 
     width:1170px;
+    padding: 45px 98px;
     margin: auto;
     background-color:#ffffff;
     
