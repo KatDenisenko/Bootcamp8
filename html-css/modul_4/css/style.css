@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    counter-reset: variable 75;
+}
+li:before {
+    counter-increment: variable -10;
+    content:"Cчетчик:"counter(variable);
+    margin-right: 20px;
+}
+/* li { */
+    /* margin-left: 15px; */
+/* } */

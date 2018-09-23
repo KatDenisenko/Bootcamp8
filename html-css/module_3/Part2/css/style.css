@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+img, a {
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/*HEADER*/
+.header {
+    width: 1366px;
+    margin: auto;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo_img {
+    width: 31px;
+    height: 25px;
+}
+.nav-header {
+    height: 100px;
+    width: 1170px;
+    margin: 38px auto 37px;
+}
+.logo, .menu-item {
+    float: left;}
+.menu-item {
+    margin-left:30px;
+    text-transform: uppercase;
+    font-style: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    color: black;
+}
+.menu-item:hover>a {
+    color: red;
+}
+.header-menu {
+    
+    list-style-type: none;
+    margin-right: 10px;
+    float: right;
+}
+
+/*MAIN*/
+.reapet_img {
+background-image: url(../img/flower.jpg);
+background-repeat: repeat-x;
+height: 105px;}
+
+.main_part {
+    width: 1366px;
+    margin: auto;
+    /* background-color: #f6f6f6; */
+    background-image: linear-gradient(to right,blue 0%,red 100%),url(../img/forest.png);
+    background-blend-mode:screen;
+}
+    /* background: url(../img/forest.png),rgba(255,165,0,0.5); */
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-blend-mode:screen; */
+    }
+.reapet_img img {
+    width:30px;
+    height:30px;
+}
+
+
+
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 100px;
+    color: #171717;
+}
+h3 {font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 97px;
+    font-size: 18px;
+    width: 512px;
+    margin:auto;
+    font-weight: 300;
+    color:#b9b9b9;
+}
+
+.pfolio {
+    width: 1366px;
+    list-style-type: none;
+    }
+
+.pfolio img {
+    float:left;
+    width: 341px;
+    height: 300px;
+    
+}
+
+/*FOOTER*/
+
+.footer {
+    width: 1366px;
+    margin: auto;
+    background-color: #141414;
+}
+
+.container {
+    width: 1170px;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.info, .contact, .footer-menu a{
+    font-family: 'Nunito Sans', sans-serif;
+    color:#ffffff;
+    font-size: 15px;
+}
+.info-title {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+.info, .contact, .footer-nav, .footer-menu {
+    float: left;
+}
+.footer-menu-item {
+    text-decoration: none;
+}
+.info span {
+    display: block;
+}
+.contact {
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 246px;
+}
+.footer-nav {
+    margin-left: 145px;
+}
+.news {
+    margin-left: 55px;
+}
+.networks {
+    margin-left: 135px;
+}

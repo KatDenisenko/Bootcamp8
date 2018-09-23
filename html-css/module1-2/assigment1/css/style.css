@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.nav-heder-menu {
+list-style-type: none;
+text-transform: uppercase;
+
+}
+.nav-menu-item:hover>a {
+    color:#9dd4f9;
+}
+.nav-heder-menu li{
+    list-style: none;
+    display: inline;
+    padding-left: 100px;
+   
+}
+.nav-heder-menu {
+    padding: 77px 313px 77px 313px;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image-item img {
+    width:420px;
+    height: 280px;
+}
+ .nav-header {
+     margin:auto;
+ }
