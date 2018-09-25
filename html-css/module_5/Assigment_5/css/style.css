@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix::after {
+content: "";
+display: table;
+clear: both    
+}
+
+a { 
+    color: rgb(0 0 0);
+    text-decoration: none;
+    display:block;
+}
+li {
+    list-style-type: none;
+}
+
+.header {
+    width: 1600px;
+    margin: auto;
+
+}
+.logo .main_page {
+    display: block;
+    float: left;
+    margin:auto;
+    text-transform: uppercase;
+     padding-top: 34px;
+     color: #656262;
+     padding-left: 243px;
+}
+
+.main_page::first-letter {
+    color: #62cab2;
+}
+.header_nav .nav_menu {
+    float: left;
+}
+.navig {
+    margin: auto;
+    padding-left: 567px;
+    padding-right: 242px;
+}
+.logo {
+    float: left;
+    margin-bottom: 33px;
+}
+.nav_menu {
+    padding-left: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+.nav_menu:hover >a{
+    color: #62cab2;
+    
+}
+.header_nav {
+    padding-top: 40px;
+    float: right;
+}
+
+.paris_tours {
+
+    background-image:linear-gradient(rgba(87, 91, 92,.5),rgba(87, 91, 92,.5)),url(../background.png);
+    width:1600px;
+    height:600px;
+    display:block;
+    margin:auto;
+    text-align: center;
+}
+
+.wrapper {
+    text-align:center;
+    margin: auto;
+    padding-top: 218px;
+    padding-bottom: 283px;
+    
+}
+.paris_tours {
+    position: relative;
+}
+
+.tours_menu {
+    padding-left: 638px;
+    position: relative;
+}
+
+.paris_tours_menu {
+    font-size:60px;
+    color:white;
+    padding-bottom: 36px;
+}
+.menu_item {
+    float:left;
+    margin: auto;
+     }
+.item {
+    text-transform: uppercase;
+    color:white;
+}
+
+.tours_menu::before {
+    background-image: url(../img/before.png);
+    content:"";
+    width:100px;
+    height:100px;
+    display:block;
+   position: absolute;
+   left: 265px;
+   top: -78px;
+   z-index: 20px;
+}
+
+.tours_menu::after {
+    background-image: url(../img/after.png);
+    content:"";
+    width:100px;
+    height:100px;
+    display:block;
+   position: absolute;
+   left: 1225px;
+   top: -78px;
+   z-index: 20px;
+}
+
+.menu_item:hover >.item {
+    color:#62cab2;
+}
+
+.products {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 105px;
+    position: relative;
+    color:#515151;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom:120px;
+}
+
+  .products::after {
+    background:#1abc9c;
+    content:"";
+    width:164px;
+    height:7px;
+    display:block;
+    position: absolute;
+    right: 735px;
+    bottom: -48px;
+  }
+
+  .prod_menu_item {
+    float: left;
+    width:255px;
+    margin:auto;
+    text-align:center;
+    margin-right: 30px;
+    position: relative;
+  }    
+
+  .prod_menu_item:last-child {
+      margin-right: 0px;
+  }
+  
+  .prod_menu_item a {
+    display: block;
+    float: left;
+}
+.new_collection {
+    width:1600px;
+    margin:auto;
+    background: #E9F0FC;
+    padding-bottom: 100px;
+}
+.products_menu {
+    margin-left:246px;
+    margin-right:245px;
+    width:1110px;
+}
+
+.prod_img {
+    display:block;
+}
+
+.border {
+    width:255px;
+}
+.prod_descr {
+    float:left;
+    width:201px;
+    margin: auto;
+    background:#323232;
+    text-transform: uppercase;
+    font-weight:bold;
+    padding-top: 13px;
+    padding-bottom:16px;
+    text-align: center;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.price {
+    float:left;
+    display: block;
+    width:49px;
+    background:#8c8c8c;
+    font-weight:bold;
+    padding-top: 12px;
+    padding-bottom:15px;
+    margin: auto;
+    text-align: center;
+    color:white;
+}
+/* HIDDEN BOX */
+
+
+    .hid_but:nth-child(2n+1) {
+        border:solid 0.5px white;
+        padding:12px;
+    }
+    .hid_but:nth-child(2) {
+        border:solid 0.5px #1abc9c;
+        padding:12px;
+        background:rgba(26, 188, 156, 0.8);
+    }
+    
+.hidden {
+    width:166px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 44%;
+    left: 49%;
+    padding: 80px 30px 49px 30px;
+    background: rgba(115, 115, 115, 0.5);  
+    display: none; 
+    border: solid 13px rgba(255, 255, 255, 0.3);
+}
+
+
+.hid_but:last-child {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:166px;
+    border:solid 0.5px white;
+    padding:20px 10px 20px 10px;
+    margin-top: 7px;
+    text-transform: uppercase;
+    background: #323232;
+    color:white;
+}
+
+.border:hover >.prod_descr {
+    background: #1abc9c;
+}
+.border:hover >.price {
+    background: #7fd9c7;
+}
+
+.prod_menu_item:hover >.hidden {
+    display:flex;
+}
+.prod_menu_item:hover >.price {
+    background: #7fd9c7;
+}
+
+.prod_menu_item:hover >.prod_descr {
+    background: #1abc9c; }
+
+    /* FOOTER */
+   
+    .ad_info {
+        width:1600px;
+        margin:auto;
+        display: flex;
+        background: #323232;
+        align-items: center;
+        padding-top:38px;
+        padding-bottom: 33px;
+        justify-content: center;
+    }
+    .foot_info {
+        color: rgb(255, 255, 255);
+        font-size:16px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .foot_info a {
+        color:#46bfa9;
+        font-size:16px;
+    }
+
