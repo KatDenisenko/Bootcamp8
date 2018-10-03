@@ -1,0 +1,29 @@
+.bg {
+    background-color: yellow;
+    height:500px;
+    text-align: center;
+    margin: auto;
+}
+
+
+.row div:nth-child(odd) {
+    background-color: rgb(187, 73, 73);
+    border:1px solid rgb(215, 233, 203);
+    height:100px;
+    /* margin: auto; */
+}
+
+.row div:nth-child(even) {
+    background-color: rgb(115, 173, 73);
+    border:1px solid rgb(215, 233, 203);
+    height:100px;
+}
+
+.fl {
+    display: flex;
+    justify-content: center;
+    height:300px;
+}
+
+
+
