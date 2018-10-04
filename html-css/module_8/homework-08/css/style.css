@@ -1,4 +1,4 @@
-* {
+/* * {
     margin:0px;
     padding: 0px;
 }
@@ -197,13 +197,20 @@ img {
     width:180px;
     justify-content: space-around;
 }
-
+.ord_3 {
+    order: -1;
+}
+.ord_1 {
+    order: -2;
+}
 @media (min-width:768px) {
     .header {
     width: 768px;
     background-image: url(../img/backdround_768.png);
     }
-
+.ord_1, .ord_3 {
+    order:0;
+}
     .wrapper {
     flex-wrap: nowrap;
     justify-content:space-between;
@@ -313,4 +320,4 @@ img {
     }
    
     
-}
+} */
