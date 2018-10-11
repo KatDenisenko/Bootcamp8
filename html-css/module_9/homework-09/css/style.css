@@ -8,6 +8,10 @@ a {
     text-decoration:none;
 }
 
+/* .icon_play {
+    width:64px;
+    fill:red;
+} */
 
 .header {
     width:322px;
@@ -23,6 +27,7 @@ a {
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight:bold;
+    margin:125px auto 38px auto;
 }
 
 img {
@@ -33,7 +38,15 @@ img {
     font-size:12px;
     font-weight:bold;
     font-family: 'Montserrat', sans-serif;
+    margin-top:30px;
 }
+
+.log_in {
+    text-align: right;
+    }
+
+
+
 
 .tagline {
     font-size: 30px;
@@ -41,13 +54,16 @@ img {
     font-weight: bold;
     text-align:center;
     font-family: 'Montserrat', sans-serif; 
+     
 }
 
 .tagline_cont {
     font-size: 18px;
+    margin: 19px 35px;
     text-transform: none;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+
 }
 
 .find_link {
@@ -58,75 +74,15 @@ img {
     color: #ffffff;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
-}
-
-
-/* 
-
-
-
-
-
-
-.wrapper {
-    display:flex;
-    justify-content: center;
-    flex-wrap:wrap-reverse;
-}
-
-
-
-
-
-
-
-
-.tagline_cont {
-    font-size: 18px;
-    text-transform: none;
-    margin: 19px auto;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-.find_section {
-    padding-bottom: 139px;
-}
-
-.log_in:hover {
-    border: solid 2px #ffffff;
-    border-radius: 150px;
-}
-
-.sing_up:hover {
-    border: solid 2px #ffffff;
-    border-radius: 150px;
-}
-
-.main {
-    width:322px;
-    margin:auto;
-}
-
-.other_partners {
-    list-style: none;
-    width:200px;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin:auto;
-}
-
-.see_other_section {
-    padding:68px 30px 57px 30px;
-
+    width:280px;
+    margin: 19px auto 139px auto;
 }
 
 .meet_partner {
     text-align: center;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
+    margin-top:68px;
 }
 
 .partner_name {
@@ -139,8 +95,7 @@ img {
 }
 
 .wrapper_img {
-    text-align: center;
-    margin-left: 40px;
+    
     margin-top: 14px;
 }
 
@@ -152,22 +107,35 @@ img {
 
 .wrapper_img img {
     border-radius: 100px;
+    margin:auto;
 }
 
+.log_in:hover {
+    border: solid 2px #ffffff;
+    border-radius: 150px;
+}
+
+.sing_up:hover {
+    border: solid 2px #ffffff;
+    border-radius: 150px;
+}
 .see_other_link {
     border:solid 2px #ff4e50;
     border-radius:30px;
     color: #ff4e50;
     font-weight:bold;
     padding: 12px;
-    margin:29px 21px auto 21px;
+    margin:29px auto 58px auto;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    width:280px;
+    
 }
 
 .wrapper_img {
     width: 122px;
     position: relative;
+    margin: auto;
 }
 
 .tv::after {
@@ -210,17 +178,41 @@ img {
     right: 1px;
 }
 
-.logo_form {
-    display:flex;
-    width:180px;
-    justify-content: space-around;
+@media (min-width:768px) {
+    .header {
+    width: 768px;
+    background-image: url(../img/backdround_768.png);
+    }
+.logo_link {
+    margin: 46px auto 38px auto;
+    text-align: left;
 }
-.ord_3 {
-    order: -1;
+
+.tagline {
+    margin: 160px auto 40px auto;
+    font-size: 50px;
 }
-.ord_1 {
-    order: -2;
+ .find_link {
+     margin: 34px auto 234px auto;
+ }
+ .sing_up, .log_in {
+    margin-top:46px;
 }
+}
+
+@media (min-width: 1200px) {
+    .header {
+        width:1440px;
+        background-image: url(../img/backdround_1440.png);
+    }
+    .find_link {
+        margin: 34px auto 234px auto;}
+}
+
+
+
+
+/* 
 @media (min-width:768px) {
     .header {
     width: 768px;
@@ -335,7 +327,7 @@ img {
 
     .see_other_link, .find_link {
     font-size: 16px;
-    }
+    } */
    
     
-} */
+} 
