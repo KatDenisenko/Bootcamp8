@@ -1,0 +1,50 @@
+
+.header-wrapper {
+    display: flex;
+    width:1200px;
+    justify-content:space-between;
+    margin: auto;
+
+    .header__logo-name {
+        margin-top: 28px;
+        width:86px;  //обратить внимание на размер значка, возможно необходимо задать размер img
+        height:23px;
+
+        &:hover {
+            transform: rotate(360deg) scale(1.5);
+            transition: transform 1s linear;
+        }
+    }
+}
+.nav_menu {
+    display:flex;
+    width:490px;
+    justify-content: space-between;
+    padding-top:40px;
+
+        &__item {
+            list-style-type: none;
+
+
+            &--link {
+                text-decoration:none;
+                text-transform: uppercase;
+                font:14px;
+                color:#95e1d3;
+                font-family: $montser;
+            }
+        }
+
+        &__item:hover >&__item--link {
+            color:$pink-col;
+            padding-bottom: 12px;
+            border-bottom: solid 3px $pink-col;
+            transition: border-bottom 1s linear;
+
+        }
+    }
+
+
+
+
+
