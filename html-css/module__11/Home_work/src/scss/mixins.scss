@@ -1,0 +1,12 @@
+@mixin text-style ($size: 14px, $weight: 400, $color: $grey, $font: $roboto, $transform: none) {
+    font-size: $size;
+    font-weight: $weight;
+    color: $color;
+    font-family: $font;
+    text-transform: $transform;
+}
+
+@mixin display-options ($display: flex, $justify: space-between) {
+    display: $display;
+    justify-content: $justify;
+    }

@@ -1,0 +1,36 @@
+.footer {
+    
+    &__info {
+        @include text-style (14px, 400, $grey, $montser);
+        display:flex;
+
+        &--link {
+            @include text-style (14px, 400, $pink-col, $roboto);
+            padding-left: 2px;
+        }
+    }
+    &__input_but {
+        display: flex;
+        &--subscribe {
+            width: 150px;  height: 40px;
+            background: #95e1d3;
+            color:white;
+            border:none;
+        }
+        &--email {
+            width: 230px;  height: 38px;
+            border:solid 1px #e5e5e5;
+            // font-family: 'Roboto', sans-serif;
+            font-style: italic;
+            @include text-style (15px, 400, $lightGrey, $roboto);
+        }
+    }
+}
+
+
+.wrapper_footer {
+    width:1200px;
+    @include display-options ($display: flex, $justify: space-between);
+    align-items: center;
+    margin:10px auto;
+}

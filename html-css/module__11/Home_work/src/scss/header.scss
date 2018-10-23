@@ -1,0 +1,94 @@
+
+.header {
+    background: linear-gradient(to top,$liner_yelow,$liner_pink),url(../img/header_background@1X.png);
+    width:100%;
+    background-size: cover;
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+          background: linear-gradient(to top,$liner_yelow,$liner_pink),url(../img/header_background@1X@2X.png);
+    }
+        &__item {
+            text-align: center;
+            @include text-style (72px, 400, $white-col, $kaushan);
+        }
+
+        &__welcome {
+            margin:auto auto 124px;
+            text-align: center;
+            @include text-style (150px, 700, $white-col, $montser);
+            width:802px;
+        }
+
+        &__more {
+            display:block;
+            border: 3px solid $white-col;
+            text-align:center;
+            @include text-style (14px, 700, $white-col, $montser, uppercase);
+            width:160px;
+            margin-bottom: 220px;
+            padding: 15px 32px 14px 32px;
+            margin:auto;
+        }
+
+}
+
+.header-wrapper {
+    width:1200px;
+    @include display-options (flex, space-between);
+    margin: auto; }
+
+    .header__logo-name {
+        margin-top: 28px;
+        width:86px;  
+        height:23px;
+
+        &:hover {
+            transform: rotate(360deg) scale(1.5);
+            transition: transform 1s linear;
+        }
+    }
+    .nav-menu {
+        @include display-options (flex, space-between);
+        width:620px;
+        padding-top:40px;
+            &__item {
+                @include text-style (14px, 700, $white-col, $montser, uppercase); 
+            }
+        &__item-link {
+            padding-bottom: 15px;
+            box-sizing: border-box;
+                &:hover {
+                        color:$yellow;
+                        padding-bottom: 12px;
+                        border-bottom: solid 3px $yellow;
+                        transition: border-bottom 1s linear;
+                    }   
+                }
+
+         &__item-icon {
+                    width:20px;
+                    height:20px;
+                    fill:$white-col;
+                    padding-bottom: 15px;
+                        &:hover >&--color-change {
+                            fill:$yellow;
+                            padding-bottom: 12px;
+                            border-bottom: solid 3px $yellow;
+                            transition: border-bottom 1s linear;
+                        }
+                        &:hover {
+                            padding-bottom: 12px;
+                            border-bottom: solid 3px $yellow;
+                            transition: border-bottom 1s linear;
+                        }    
+                    }
+ 
+        }
+      
+        .header-wrapper-item { 
+            margin-top:164px;
+            padding-bottom:227px;}
+
+          
+
+        
