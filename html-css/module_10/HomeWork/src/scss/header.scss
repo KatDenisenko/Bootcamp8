@@ -16,7 +16,7 @@
         }
     }
 }
-.nav_menu {
+.nav-menu {
     display:flex;
     width:490px;
     justify-content: space-between;
@@ -26,7 +26,7 @@
             list-style-type: none;
 
 
-            &--link {
+            &-link {
                 text-decoration:none;
                 text-transform: uppercase;
                 font:14px;
@@ -35,7 +35,7 @@
             }
         }
 
-        &__item:hover >&__item--link {
+        &__item:hover >&__item-link {
             color:$pink-col;
             padding-bottom: 12px;
             border-bottom: solid 3px $pink-col;
